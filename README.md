@@ -21,9 +21,7 @@ adjacentes na matriz corresponde a um “zambs”. As velocidades das motos são
 zambs/minuto.
 Você deve informar (via teclado) as coordenadas de sua casa. Note que sua casa deve
 estar em um trecho pavimentado da cidade.
-  1. Calcule a distância em “zambs” de sua casa a todos os restaurantes. Dica: sempre
-  que chegar em uma esquina, escolha um caminho e guarde a coordenada da
-  esquina para explorar os outros possíveis caminhos.
+  1. Calcule a distância em “zambs” de sua casa a todos os restaurantes. 
   2. Leia (do teclado) a preferência de custo (caro ou barato), e retorne um arranjo com
   os restaurantes em ordem de rapidez de entrega.
   3. Leia (do teclado) a preferência de custo (caro ou barato) e o tempo máximo que

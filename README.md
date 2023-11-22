@@ -27,3 +27,32 @@ estar em um trecho pavimentado da cidade.
   3. Leia (do teclado) a preferência de custo (caro ou barato) e o tempo máximo que
   voce quer esperar (minutos), e retorne um arranjo com os restaurantes que
   respeitem a restrição de tempo de espera.
+
+Remembering that this code was developed a long time ago (when I was learning C) and has several flaws, it is not modularized and treated, in addition to being something very simple and can be improved.
+The only thing I want to highlight in this work is my adaptation of the BFS or Breadth-First Search algorithm to find the shortest path between houses and restaurants.
+Not only did I have to know how to use it, but how to adapt it to the problem.
+
+This project is about solving a problem with the following statement:
+
+Consider a city, represented as a matrix. In the city there are restaurants and streets.
+Streets are represented by coordinates (x, y) indicating whether the coordinate is
+paved (1) or not (0). Consider that if two adjacent coordinates are
+paved, then the section between these coordinates is paved. The file “streets.txt”
+provides information about paved and unpaved sections (x, y,
+paved). All restaurants are accessible via the streets, meaning there is always
+a possible path between a paved place and a restaurant. Furthermore, there is always
+only one possible path.
+Restaurants can be cheap/expensive, and each restaurant has a delivery person. O
+Delivery man makes deliveries with his motorcycle, and the speed of the motorcycle is specified. O
+file “restaurants.txt” has this information (x, y, name, cost, speed).
+The unit of distance measurement is called “zambs”. The distance between two coordinates
+adjacent in the matrix corresponds to a “zambs”. The speeds of the motorcycles are given in
+zambs/minute.
+You must enter (via keyboard) the coordinates of your home. Note that your home must
+be in a paved section of the city.
+  1. Calculate the distance in “zambs” from your home to all restaurants.
+  2. Read (from the keyboard) the cost preference (expensive or cheap), and return an arrangement with
+  restaurants in order of delivery speed.
+  3. Read (from the keyboard) the cost preference (expensive or cheap) and the maximum time
+  you want to wait (minutes), and return an arrangement with the restaurants that
+  respect the waiting time restriction.

@@ -1,5 +1,5 @@
 # ProjetoFinal-_PDS1
-Lembrando que esse código foi desenvolvido a muito tempo (Quando estava aprendendo C) e possui varias falhas além de ser algo bem simples e que pode ser melhorado.
+Lembrando que esse código foi desenvolvido a muito tempo (Quando estava aprendendo C) e possui varias falhas, não esta modularizado e tratado, além de ser algo bem simples e que pode ser melhorado.
 A unica coisa que quero destacar nesse trabalho a minha adaptação do algortimo BFS ou Busca em largura para encontrar o menor caminho entre casa-restaurantes.
 Não apenas tive saber usar como adaptar ao problema.
 
